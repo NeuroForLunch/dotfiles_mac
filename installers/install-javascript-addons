@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+if test ! $(which spoof)
+then
+  sudo npm install spoof -g
+fi
+
+# -g = global
+# npm = node package manager
+npm install -g ijavascript
+# ijavascript is for running javascript with jupyter notebooks
+
+# node.js kernel for jupyter/ipython
+# git clone git@github.com:notablemind/jupyter-nodejs.git
+# cd jupyter-nodejs
+# mkdir -p ~/.ipython/kernels/nodejs/
+# npm install && node install.js
+# npm run build
+# npm run build-ext
+# ipython console --kernel nodejs
+
+npm install -g coffee-script
+# npm install --global --production resin-cli
+# npm install --save resin-cli-visuals
+npm install --global gulp-cli
+
+npm install npm -g
+npm update -g

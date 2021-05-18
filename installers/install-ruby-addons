@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+ln -sF ~/Dropbox/github/dotfiles/settings/ruby/aprc ~/.aprc
+ln -sF ~/Dropbox/github/dotfiles/settings/ruby/gemrc ~/.gemrc
+ln -sF ~/Dropbox/github/dotfiles/settings/ruby/irbrc ~/.irbrc
+ln -sF ~/Dropbox/github/dotfiles/settings/ruby/pryrc ~/.pryrc
+ln -sF ~/Dropbox/github/dotfiles/settings/ruby/rdebugrc ~/.rdebugrc
+
+# install gems
+rbenv shims
+bundle install
+gem update --system
+gem update

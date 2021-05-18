@@ -1,0 +1,105 @@
+# Run this file with `brew bundle`
+# Filter names of packages with `brew search`
+# Search descriptions of packages with searchbrew.com
+
+cask_args appdir: '/Applications'
+
+tap 'caskroom/cask'
+tap 'caskroom/cask-cask'
+tap 'homebrew/cask-cask-cask'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+
+## Required Tools for Compiling Software
+brew 'coreutils' # https://en.wikipedia.org/wiki/GNU_Core_Utilities
+brew 'openssl' # TLS and SSL
+brew 'pkg-config' # for jupyter notebooks in atom
+brew 'zeromq' # for jupyter notebooks in atom
+brew 'libtool' # for jupyter notebooks in atom
+brew 'autoconf' # for jupyter notebooks in atom
+brew 'automake' # for jupyter notebooks in atom
+brew 'autogen' # for jupyter notebooks in atom
+
+## Text Editors
+brew 'macvim', args: ['with-cscope', 'with-lua'] # vim!
+cask 'atom' # chromium/node/electron based text editor -> better than intelliJ
+cask 'visual-studio-code'
+
+# Python
+brew 'python'
+
+## Ruby
+brew 'rbenv' # ruby version manager
+brew 'ruby-build' # required plugin for rbenv to install any ruby version
+
+## Javascript
+brew 'node' # portable headless javascript engine
+
+## Books and Spelling
+cask 'calibre' # ebook management and conversion tools
+brew 'hunspell' # worlds best implantable spellchecking dictionary
+brew 'shellcheck' # for bash auto correct and linting
+
+## Terminal Experience
+cask 'iterm2' # better terminal
+brew 'grc' # terminal colorizer
+brew 'trash' # moves stuff to trash bin when you type $ trash [filename]
+brew 'readline' # command line history and more
+
+# Code Search
+brew 'ack' # code search tool (http://beyondgrep.com/documentation/)
+brew 'the_silver_searcher' # faster code search tool: `ag find_this ~/code/`
+
+## Code Documentation
+brew 'doxygen' # generates documentation from source code
+brew 'ctags' # creates an index of classes, methods, variables, etc, for code editors
+
+## Versioning
+brew 'libgit2' # git core methods
+brew 'hub' # githubs wrapper around git
+brew 'ghi' # manipulate github issues
+brew 'gibo' # .gitignore templates: `gibo Python >> .gitignore`
+# cask 'gitkraken' # visual git version 5.04 is last usable one
+brew 'bfg' # cleans repo of deleted files: https://rtyley.github.io/bfg-repo-cleaner/
+
+## Databases
+brew 'postgresql' # most fault proof and fastest sql+nosql datastore
+
+## Compression/Decompression
+brew 'unrar' # decompress many file types with: $ unrar file_name
+
+## Electronics
+brew 'ino' # arduino command line tool
+
+## Internet
+brew 'wget' # get web files with `wget [url]`
+brew 'youtube-dl' # download youtube + other videos https://github.com/rg3/youtube-dl
+brew 'ffmpeg' # needed for youtube-dl to convert video to mp3
+#cask 'google-chrome', args: { appdir: '/Applications' }
+#cask 'firefox', args: { appdir: '/Applications' }
+#cask 'brave', args: { appdir: '/Applications' }
+
+## Multimedia
+brew 'imagemagick' # image manipulation see xxx
+# cask 'handbrake' # video transcoder
+
+## Communications
+# cask 'signal' # secure communications
+# cask 'slack' # team chat client
+
+## Security
+# mas '1Password', id: 443987910
+# cask '1password' # best password manager. Make sure to get version 6
+brew 'gnupg'
+
+## Mathematics
+
+## Mac OS Customization
+cask 'karabiner-elements' # remap keys like Caps Lock to Esc
+# cask 'keyboard-maestro' # script runner that has some built in functions but I've only used it once for auto clicking something in Fusion360 using image match.
+cask 'duet' # use ipad as additional screen
+
+# Examples
+# brew 'emacs', args: ['with-cocoa', 'with-gnutls']
+# cask 'java' unless system '/usr/libexec/java_home --failfast'
+# mas 'app_name', id: XXXXXXXXX # installs from Mac Apple Store

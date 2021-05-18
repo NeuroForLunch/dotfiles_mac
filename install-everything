@@ -1,0 +1,22 @@
+# Run this file with `sh install-everything`
+# It will install all dotfiles, programs, and settings.
+
+main() {
+ # sudo -v
+ cd installers || echo "uh oh..."
+ ln -sF ~/Dropbox/github/dotfiles ~/.dotfiles
+
+ sh install-first
+ sh install-fonts
+ sh install-homebrew-apps
+ sh install-ruby-addons
+ sh install-javascript-addons
+ # sh install-python-addons
+ # sh install-shell-addons
+ # sh install-text-editor-addons
+ sh install-macOS-preferences
+ sh install-macOS-updates
+
+}
+main
+echo "done"

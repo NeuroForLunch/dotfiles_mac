@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+# Install homebrew if not available
+if test ! $(which brew)
+then
+  echo "  Installing Homebrew for you."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+echo "› brew update"
+brew update
+echo "› brew upgrade"
+brew upgrade
+echo "› brew bundle"
+brew bundle
+
+ln -sF ~/Dropbox/github/dotfiles/settings/ruby/rbenv-global-version ~/.rbenv/version

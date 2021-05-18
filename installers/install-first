@@ -1,0 +1,6 @@
+# Install command line utilities for MacOS
+xcode-select --install
+
+# Install git configuration
+ln -sF ~/Dropbox/github/dotfiles/settings/git/gitconfig ~/.gitconfig
+ln -sF ~/Dropbox/github/dotfiles/settings/git/gitignore ~/.gitignore

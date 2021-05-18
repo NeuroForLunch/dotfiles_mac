@@ -1,0 +1,28 @@
+source 'https://rubygems.org'
+# install with $ bundle install
+# if it fails do gem install bundler
+gem 'ghi'
+gem 'ruby-graphviz'
+
+gem 'rubocop'
+gem 'reek'
+gem 'mdl'
+
+gem 'pygments.rb'
+gem 'awesome_print'
+gem 'jazz_hands'
+gem 'byebug'
+
+gem 'rbczmq'
+gem 'iruby'
+
+gem 'pry'
+gem 'pry-rails'
+gem 'pry-remote'
+gem 'pry-byebug'
+
+gem 'thor'
+
+# convert asc files to html file pages
+# https://github.com/asciidoctor/asciidoctor
+gem 'asciidoctor'
