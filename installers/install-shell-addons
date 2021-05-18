@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# change shell to zsh and set as default
+chsh -s /bin/zsh
+
+# symlink folders
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zprezto ~/.zprezto
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh ~/.zsh
+
+# symlink zsh and prezto configuration
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zshrc ~/.zshrc
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zlogin ~/.zlogin
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zprofile ~/.zprofile
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zshenv ~/.zshenv
+ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zpreztorc ~/.zpreztorc

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>iTerm2</string>
+	<key>shortcuts</key>
+	<array>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Custom Shortcuts</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>53</integer>
+			<key>keystring</key>
+			<string>cmd + esc</string>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>show/hide iterm</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>2</integer>
+			<key>keystring</key>
+			<string>shift + cmd + D</string>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>split horizontally</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd + [ or ]</string>
+			<key>title</key>
+			<string>make next/previous pane active</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Google Chrome</string>
+	<key>shortcuts</key>
+	<array>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Custom Shortcuts</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>test</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>test2</string>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Navigation</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>test</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -94,7 +94,7 @@ brew 'gnupg'
 
 ## Mathematics
 
-## Mac OS Customization
+## macOS Customization
 cask 'karabiner-elements' # remap keys like Caps Lock to Esc
 # cask 'keyboard-maestro' # script runner that has some built in functions but I've only used it once for auto clicking something in Fusion360 using image match.
 cask 'duet' # use ipad as additional screen

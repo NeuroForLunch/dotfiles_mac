@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+require 'pry'
+
+class Youtube < Thor
+  include Thor::Actions
+  
+    def self.source_root
+      File.dirname(__FILE__)
+    end
+    
+    desc 'mp3 [URL]', 'download mp3 using video or playlist url'
+    def mp3(url)
+      run "youtube-dl -x --audio-format mp3 -i -o \"%(title)s.%(ext)s\" #{url}"
+
+    end
+    
+    desc 'video [URL]', 'download video using video or playlist url'
+    def video(url)
+      run "youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -i --merge-output-format mp4 -o \"%(title)s.%(ext)s\" #{url}"
+    end
+    
+    
+end
+
+Youtube.start

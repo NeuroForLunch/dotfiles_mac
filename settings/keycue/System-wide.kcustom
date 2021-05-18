@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>System-wide</string>
+	<key>shortcuts</key>
+	<array>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Switch Applications</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>48</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>Application Switcher (forward)</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>48</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>Application Switcher (backwards)</string>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Text Navigation: Jump to…</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>123</integer>
+			<key>modifiers</key>
+			<integer>524288</integer>
+			<key>title</key>
+			<string>beginning of word</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>124</integer>
+			<key>modifiers</key>
+			<integer>524288</integer>
+			<key>title</key>
+			<string>end of word</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>126</integer>
+			<key>modifiers</key>
+			<integer>524288</integer>
+			<key>title</key>
+			<string>beginning of paragraph</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>125</integer>
+			<key>modifiers</key>
+			<integer>524288</integer>
+			<key>title</key>
+			<string>end of paragraph</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>123</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>beginning of line</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>124</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>end of line</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>126</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>beginning of document</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>125</integer>
+			<key>modifiers</key>
+			<integer>1048576</integer>
+			<key>title</key>
+			<string>end of document</string>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Extend text selection…</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>123</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>one character to the left</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>124</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>one character to the right</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>126</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>to line above</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>125</integer>
+			<key>modifiers</key>
+			<integer>131072</integer>
+			<key>title</key>
+			<string>to line below</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>123</integer>
+			<key>modifiers</key>
+			<integer>655360</integer>
+			<key>title</key>
+			<string>to beginning of word</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>124</integer>
+			<key>modifiers</key>
+			<integer>655360</integer>
+			<key>title</key>
+			<string>to end of word</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>126</integer>
+			<key>modifiers</key>
+			<integer>655360</integer>
+			<key>title</key>
+			<string>to beginning of paragraph</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>125</integer>
+			<key>modifiers</key>
+			<integer>655360</integer>
+			<key>title</key>
+			<string>to end of paragraph</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>123</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>to beginning of line</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>124</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>to end of line</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>126</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>to beginning of document</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>125</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>to end of document</string>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>51</integer>
+			<key>modifiers</key>
+			<integer>655360</integer>
+			<key>title</key>
+			<string>Delete word to left of cursor</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>2</integer>
+			<key>modifiers</key>
+			<integer>1310720</integer>
+			<key>title</key>
+			<string>Look up in dictionary</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>keystring</key>
+			<string>⏏</string>
+			<key>modifiers</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Eject Disc</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>keystring</key>
+			<string>⏏</string>
+			<key>modifiers</key>
+			<integer>262144</integer>
+			<key>title</key>
+			<string>Restart/Sleep/Shut Down</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>keystring</key>
+			<string>⏏</string>
+			<key>modifiers</key>
+			<integer>1572864</integer>
+			<key>title</key>
+			<string>Sleep</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>keystring</key>
+			<string>⏏</string>
+			<key>modifiers</key>
+			<integer>1310720</integer>
+			<key>title</key>
+			<string>Quit All, then Restart</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>keystring</key>
+			<string>⏏</string>
+			<key>modifiers</key>
+			<integer>1835008</integer>
+			<key>title</key>
+			<string>Quit All, then Shut Down</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>49</integer>
+			<key>keystring</key>
+			<string>⏏</string>
+			<key>modifiers</key>
+			<integer>393216</integer>
+			<key>title</key>
+			<string>Put Display to Sleep</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

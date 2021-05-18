@@ -1,0 +1,31 @@
+zstyle ':prezto:*:*' case-sensitive 'no'
+zstyle ':prezto:*:*' color 'yes'
+
+# load modules in order
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'archive' \
+  'fasd' \
+  'git' \
+  'ruby' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'ssh' \
+  'rsync' \
+  'rails' \
+  'autosuggestions' \
+  'screen' \
+  'prompt'
+
+
+zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:ssh-agent' forwarding 'yes'
+zstyle ':prezto:module:terminal' auto-title 'yes'

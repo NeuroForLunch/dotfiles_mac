@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Atom</string>
+	<key>shortcuts</key>
+	<array>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>atom</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd shift P</string>
+			<key>title</key>
+			<string>search for an action</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd shift \</string>
+			<key>title</key>
+			<string>reveal active file</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd 0</string>
+			<key>title</key>
+			<string>toggle tree focus</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd k n</string>
+			<key>title</key>
+			<string>focus next window</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd k p</string>
+			<key>title</key>
+			<string>focus previous window</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd [num]</string>
+			<key>title</key>
+			<string>change tab</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>shift cmd 0</string>
+			<key>title</key>
+			<string>open project folder</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd /</string>
+			<key>title</key>
+			<string>toggle comments</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl f</string>
+			<key>title</key>
+			<string>find</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl f tab</string>
+			<key>title</key>
+			<string>replace</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>markdown</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl shift m</string>
+			<key>title</key>
+			<string>markdown preview</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl opt b</string>
+			<key>title</key>
+			<string>beautify</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>terminal</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>cmd shift t</string>
+			<key>title</key>
+			<string>open terminal</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl `</string>
+			<key>title</key>
+			<string>toggle terminal</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl enter</string>
+			<key>title</key>
+			<string>copy text to terminal</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>vim:action</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>.</string>
+			<key>title</key>
+			<string>repeat last command</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>u / U / ctrl r</string>
+			<key>title</key>
+			<string>undo/undoLine/redo</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>:wq</string>
+			<key>title</key>
+			<string>write &amp; quit</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>:q!</string>
+			<key>title</key>
+			<string>quit no save</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>vim: writing</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>o / O</string>
+			<key>title</key>
+			<string>open below/above</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>d / y</string>
+			<key>title</key>
+			<string>cut/copy</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>p / P</string>
+			<key>title</key>
+			<string>paste after / before</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>d a w</string>
+			<key>title</key>
+			<string>delete a word</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>~</string>
+			<key>title</key>
+			<string>toggle case</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>vim: movement</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>ctrl e/y</string>
+			<key>title</key>
+			<string>scroll up/down</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>^/$</string>
+			<key>title</key>
+			<string>line begin/end</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>#/*</string>
+			<key>title</key>
+			<string>previous/next indent</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>??</string>
+			<key>title</key>
+			<string>set mark</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>`[letter]</string>
+			<key>title</key>
+			<string>goto mark</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>keycue</string>
+		</dict>
+		<dict>
+			<key>keystring</key>
+			<string>bug</string>
+			<key>title</key>
+			<string>dont use keycue search</string>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
