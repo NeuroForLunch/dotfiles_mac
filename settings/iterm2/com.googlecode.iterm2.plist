@@ -3806,10 +3806,9 @@ Cut</string>
 			<key>guid</key>
 			<string>A1F57E54-626C-4AE2-A645-8A8C5F696AEE</string>
 			<key>title</key>
-			<string>gnuradio p1</string>
+			<string>gnuradio p[]</string>
 			<key>value</key>
-			<string>docker run -p 5900:5900 -p 8080:80 -v ~/Dropbox/github/GNUradio-docker/shared-storage:/root/shared-storage neuroforlunch/gnuradio-companion-plus:p1
-</string>
+			<string>docker run -p 5900:5900 -p 8080:80 -v ~/Dropbox/github/GNUradio-docker/shared-storage:/root/shared-storage neuroforlunch/gnuradio-companion-plus:p</string>
 		</dict>
 		<dict>
 			<key>guid</key>
