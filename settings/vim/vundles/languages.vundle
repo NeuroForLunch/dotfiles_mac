@@ -1,0 +1,8 @@
+Bundle 'sheerun/vim-polyglot'
+Bundle 'garbas/vim-snipmate'
+Bundle 'honza/vim-snippets'
+Bundle 'jtratner/vim-flavored-markdown'
+Bundle 'scrooloose/syntastic'
+Bundle 'nelstrom/vim-markdown-preview'
+Bundle 'skwp/vim-html-escape'
+Bundle 'mxw/vim-jsx'
