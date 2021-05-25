@@ -17,5 +17,5 @@ else
   let g:CSApprox_loaded = 1
 endif
 
-colorscheme solarized
+" colorscheme solarized
 set background=dark

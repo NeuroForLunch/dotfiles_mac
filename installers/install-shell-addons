@@ -4,12 +4,14 @@
 chsh -s /bin/zsh
 
 # symlink folders
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zprezto ~/.zprezto
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh ~/.zsh
+ln -sF ~/.dotfiles/settings/zsh/zprezto ~/.zprezto
+ln -sF ~/.dotfiles/settings/zsh ~/.zsh
 
 # symlink zsh and prezto configuration
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zshrc ~/.zshrc
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zlogin ~/.zlogin
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zprofile ~/.zprofile
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zshenv ~/.zshenv
-ln -sF ~/Dropbox/github/dotfiles/settings/zsh/zpreztorc ~/.zpreztorc
+ln -sF ~/.dotfiles/settings/zsh/zshrc ~/.zshrc
+ln -sF ~/.dotfiles/settings/zsh/zlogin ~/.zlogin
+ln -sF ~/.dotfiles/settings/zsh/zprofile ~/.zprofile
+ln -sF ~/.dotfiles/settings/zsh/zshenv ~/.zshenv
+ln -sF ~/.dotfiles/settings/zsh/zpreztorc ~/.zpreztorc
+
+ln -sF ~/.dotfiles/settings/zsh/setting-ctags ~/.ctags

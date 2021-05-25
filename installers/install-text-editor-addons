@@ -4,8 +4,8 @@
 # VIM
 ##################################################
 
-ln -sF ~/Dropbox/github/dotfiles/settings/vim ~/.vim
-ln -sF ~/Dropbox/github/dotfiles/settings/vim/vimrc ~/.vimrc
+ln -sF ~/.dotfiles/settings/vim ~/.vim
+ln -sF ~/.dotfiles/settings/vim/vimrc ~/.vimrc
 
 # https://github.com/VundleVim/Vundle.vim#quick-start
 # vim +PluginInstall +qall
@@ -19,12 +19,12 @@ vim --noplugin -u ~/.vim/vundles.vim -N "+set hidden" "+syntax on" +BundleInstal
 ##################################################
 
 #install atom plugins
-# apm install --packages-file ~/Dropbox/github/dotfiles/installers/atomfile
+# apm install --packages-file ~/.dotfiles/installers/atomfile
 
 #symlink settings
-#ln -Fs ~/Dropbox/github/dotfiles/settings/atom/config.cson ~/.atom/config.cson
-#ln -Fs ~/Dropbox/github/dotfiles/settings/atom/snippets.cson ~/.atom/snippets.cson
-#ln -Fs ~/Dropbox/github/dotfiles/settings/atom/keymap.cson ~/.atom/keymap.cson
-#ln -Fs ~/Dropbox/github/dotfiles/settings/atom/styles.less ~/.atom/styles.less
-#ln -Fs ~/Dropbox/github/dotfiles/settings/atom/init.coffee ~/.atom/init.coffee
-#ln -Fs ~/Dropbox/github/dotfiles/settings/atom/packages ~/.atom/packages
+#ln -Fs ~/.dotfiles/settings/atom/config.cson ~/.atom/config.cson
+#ln -Fs ~/.dotfiles/settings/atom/snippets.cson ~/.atom/snippets.cson
+#ln -Fs ~/.dotfiles/settings/atom/keymap.cson ~/.atom/keymap.cson
+#ln -Fs ~/.dotfiles/settings/atom/styles.less ~/.atom/styles.less
+#ln -Fs ~/.dotfiles/settings/atom/init.coffee ~/.atom/init.coffee
+#ln -Fs ~/.dotfiles/settings/atom/packages ~/.atom/packages

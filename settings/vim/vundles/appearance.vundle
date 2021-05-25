@@ -1,6 +1,6 @@
+" Bundle "skwp/vim-colors-solarized"
 Bundle "chrisbra/color_highlight"
-Bundle "skwp/vim-colors-solarized"
-Bundle "itchyny/lightline.vim"
+" Bundle "itchyny/lightline.vim"
 Bundle "jby/tmux.vim"
 Bundle "morhetz/gruvbox"
 Bundle "xsunsmile/showmarks"

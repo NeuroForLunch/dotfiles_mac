@@ -9,7 +9,7 @@ settings/zsh/zprezto/zprezto
 
 
 settings/atom/packages/
-settings/vim/bundle/
+
 settings/vim/sessions/
 
 start_hydrogen\.py

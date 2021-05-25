@@ -16,4 +16,4 @@ brew upgrade
 echo "› brew bundle"
 brew bundle
 
-ln -sF ~/Dropbox/github/dotfiles/settings/ruby/rbenv-global-version ~/.rbenv/version
+ln -sF ~/.dotfiles/settings/ruby/rbenv-global-version ~/.rbenv/version

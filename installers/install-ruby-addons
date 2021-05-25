@@ -2,11 +2,11 @@
 
 cd $(dirname $0)
 
-ln -sF ~/Dropbox/github/dotfiles/settings/ruby/aprc ~/.aprc
-ln -sF ~/Dropbox/github/dotfiles/settings/ruby/gemrc ~/.gemrc
-ln -sF ~/Dropbox/github/dotfiles/settings/ruby/irbrc ~/.irbrc
-ln -sF ~/Dropbox/github/dotfiles/settings/ruby/pryrc ~/.pryrc
-ln -sF ~/Dropbox/github/dotfiles/settings/ruby/rdebugrc ~/.rdebugrc
+ln -sF ~/.dotfiles/settings/ruby/aprc ~/.aprc
+ln -sF ~/.dotfiles/settings/ruby/gemrc ~/.gemrc
+ln -sF ~/.dotfiles/settings/ruby/irbrc ~/.irbrc
+ln -sF ~/.dotfiles/settings/ruby/pryrc ~/.pryrc
+ln -sF ~/.dotfiles/settings/ruby/rdebugrc ~/.rdebugrc
 
 # install gems
 rbenv shims

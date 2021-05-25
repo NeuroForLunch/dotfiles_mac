@@ -1,2 +1,2 @@
 #!usr/bin/env bash
-cp -f ~/Dropbox/github/dotfiles/fonts/* ~/Library/Fonts
+cp -f ~/.dotfiles/fonts/* ~/Library/Fonts
