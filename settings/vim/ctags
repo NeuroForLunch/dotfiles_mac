@@ -1,5 +1,5 @@
 # https://andrew.stwrt.ca/posts/vim-ctags/
-# this needs to be symlinked to ~/.ctags
+# this needs to be symlinked to ~/.ctags ... if its even useful
 
 --langdef=js
 --langmap=js:.js

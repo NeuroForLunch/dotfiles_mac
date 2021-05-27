@@ -1,9 +1,7 @@
-# execution order zprofile > zshrc > zlogin
+# execution order zshenv > zprofile > zshrc > zpreztorc > zlogin > zlogout
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.zsh
 export PROJECTS=~/Dropbox/github/
-
-
 
 # get environment variables from ~/.private
 #if [[ -a ~/.private ]]

@@ -1,3 +1,5 @@
+# execution order zshenv > zprofile > zshrc > zpreztorc > zlogin > zlogout
+
 zstyle ':prezto:*:*' case-sensitive 'no'
 zstyle ':prezto:*:*' color 'yes'
 

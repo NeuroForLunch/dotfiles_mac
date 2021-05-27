@@ -1,5 +1,3 @@
-
-
 export GREP_COLOR='1;33'
 
 autoload colors && colors

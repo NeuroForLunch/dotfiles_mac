@@ -1,4 +1,5 @@
 # This file needs to be symlinked to ~/.tmux.conf
+# https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
 
 # Ring the bell if any background window rang a bell
 set -g bell-action any

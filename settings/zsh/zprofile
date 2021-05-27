@@ -1,5 +1,4 @@
-# execution order zprofile > zshrc > zlogin
-# Executes commands at login before zshrc.
+# execution order zshenv > zprofile > zshrc > zpreztorc > zlogin > zlogout
 
 export LANG="en_US.UTF-8"
 export BROWSER="open"

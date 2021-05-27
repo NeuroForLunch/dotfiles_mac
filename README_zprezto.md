@@ -54,12 +54,6 @@ Sets history options and defines history aliases.
 History Substring Search
 Integrates zsh-history-substring-search into Prezto.
 
-Homebrew
-Defines Homebrew aliases.
-
-MacPorts
-Defines MacPorts aliases and adds MacPorts directories to path variables.
-
 Node.js
 Provides utility functions for Node.js and loads npm completion.
 
