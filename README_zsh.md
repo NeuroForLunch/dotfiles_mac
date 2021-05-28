@@ -1,4 +1,11 @@
 Configuration Files
+
+Usable prompt themes:
+$ prompt pure
+$ prompt pws
+
+
+
 ===================
 File Descriptions
 -----------------

@@ -466,7 +466,7 @@
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
-	<true/>
+	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<true/>
 	<key>DisableMetalWhenIdle</key>
@@ -1462,7 +1462,7 @@ Cut</string>
 			<key>Plain Text Logging</key>
 			<true/>
 			<key>Prompt Before Closing 2</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
@@ -3640,7 +3640,7 @@ Cut</string>
 		</dict>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
-	<true/>
+	<false/>
 	<key>OpenArrangementAtStartup</key>
 	<true/>
 	<key>OpenBookmark</key>
@@ -3742,6 +3742,15 @@ Cut</string>
 		</dict>
 		<dict>
 			<key>guid</key>
+			<string>4B17EFF6-27ED-45BB-8039-5F3C1649B1FC</string>
+			<key>title</key>
+			<string>inspectrum</string>
+			<key>value</key>
+			<string>inspectrum
+</string>
+		</dict>
+		<dict>
+			<key>guid</key>
 			<string>206BC4CD-102C-48C8-97EE-C30596F3D416</string>
 			<key>title</key>
 			<string>qSpectrum Analyzer</string>
@@ -3822,7 +3831,7 @@ Cut</string>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.51540909815018709</real>
+	<real>0.25700650955259113</real>
 	<key>StartDebugLoggingAutomatically</key>
 	<true/>
 	<key>SwitchPaneModifier</key>

@@ -24,6 +24,7 @@ brew 'autogen' # for jupyter notebooks in atom
 brew 'macvim', args: ['with-cscope', 'with-lua'] # vim!
 cask 'atom' # chromium/node/electron based text editor -> better than intelliJ
 cask 'visual-studio-code'
+brew 'duti' #set default file openers for extensions
 
 # Python
 brew 'python'
@@ -98,6 +99,10 @@ brew 'gnupg'
 cask 'karabiner-elements' # remap keys like Caps Lock to Esc
 # cask 'keyboard-maestro' # script runner that has some built in functions but I've only used it once for auto clicking something in Fusion360 using image match.
 cask 'duet' # use ipad as additional screen
+
+# Signals Intelligence
+brew 'fftw'
+brew  'inspectrum', args: ['head']
 
 # Examples
 # brew 'emacs', args: ['with-cocoa', 'with-gnutls']

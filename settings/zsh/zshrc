@@ -30,8 +30,11 @@ do
   source $file
 done
 
-autoload -U compinit
+# Set prompt style
+autoload -Uz compinit
 compinit
+prompt pure
+
 
 # load every completion.zsh
 for file in ${(M)config_files:#*/completion.zsh}

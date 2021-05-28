@@ -1,0 +1,18 @@
+# brew install duti
+# first use for known format to get app which opens it
+# duti -x conf
+# Atom.app
+# /Applications/Atom.app
+# com.github.atom
+
+duti -s com.github.atom .md all
+duti -s com.github.atom .xml all
+duti -s com.github.atom .json all
+duti -s com.github.atom .hpp all
+duti -s com.github.atom .h all
+duti -s com.github.atom .cpp all
+duti -s com.github.atom .qss all
+duti -s com.github.atom .cmake all
+duti -s com.github.atom .txt all
+duti -s com.github.atom .alist all
+duti -s com.github.atom .grc all
