@@ -1442,7 +1442,7 @@ Cut</string>
 				<real>0.0</real>
 			</dict>
 			<key>Log Directory</key>
-			<string>~/Dropbox/github/terminal-input-log</string>
+			<string>~/Dropbox/iterm-log</string>
 			<key>Minimum Contrast</key>
 			<real>0.40179055274566472</real>
 			<key>Mouse Reporting</key>
@@ -1839,7 +1839,7 @@ Cut</string>
 				<real>0.87685032894736836</real>
 			</dict>
 			<key>Automatically Log</key>
-			<false/>
+			<true/>
 			<key>BM Growl</key>
 			<true/>
 			<key>Background Color</key>
@@ -2252,6 +2252,8 @@ Cut</string>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Log Directory</key>
+			<string>~/Dropbox/iterm-log</string>
 			<key>Minimum Contrast</key>
 			<real>0.0</real>
 			<key>Mouse Reporting</key>
@@ -2266,6 +2268,8 @@ Cut</string>
 			<string>Menlo-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Plain Text Logging</key>
+			<true/>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -2484,6 +2488,8 @@ Cut</string>
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
+			<key>Automatically Log</key>
+			<true/>
 			<key>BM Growl</key>
 			<true/>
 			<key>Background Color</key>
@@ -2859,6 +2865,8 @@ Cut</string>
 					<string>[1;5F</string>
 				</dict>
 			</dict>
+			<key>Log Directory</key>
+			<string>~/Dropbox/iterm-log</string>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -2871,6 +2879,8 @@ Cut</string>
 			<string>Monaco 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Plain Text Logging</key>
+			<true/>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -3126,7 +3136,7 @@ Cut</string>
 				<real>0.79607843137254897</real>
 			</dict>
 			<key>Automatically Log</key>
-			<false/>
+			<true/>
 			<key>BM Growl</key>
 			<true/>
 			<key>Background Color</key>
@@ -3551,6 +3561,8 @@ Cut</string>
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Log Directory</key>
+			<string>~/Dropbox/iterm-log</string>
 			<key>Minimum Contrast</key>
 			<real>0.0</real>
 			<key>Mouse Reporting</key>
@@ -3565,6 +3577,8 @@ Cut</string>
 			<string>Menlo-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Plain Text Logging</key>
+			<true/>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -3817,7 +3831,7 @@ Cut</string>
 			<key>title</key>
 			<string>gnuradio p[]</string>
 			<key>value</key>
-			<string>docker run -p 5900:5900 -p 8080:80 -v ~/Dropbox/github/GNUradio-docker/shared-storage:/root/shared-storage neuroforlunch/gnuradio-companion-plus:p</string>
+			<string>docker run -p 5900:5900 -p 8080:80 -v ~/Dropbox/github/shared-storage:/root/shared-storage neuroforlunch/gnuradio-companion-plus:p</string>
 		</dict>
 		<dict>
 			<key>guid</key>

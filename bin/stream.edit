@@ -1,0 +1,13 @@
+For example, to replace all occurrences of ‘hello’ to ‘world’ in the file input.txt:
+
+sed 's/hello/world/' input.txt > output.txt
+
+If you do not specify INPUTFILE, or if INPUTFILE is -, sed filters the contents of the standard input. The following commands are equivalent:
+
+sed 's/hello/world/' input.txt > output.txt
+sed 's/hello/world/' < input.txt > output.txt
+cat input.txt | sed 's/hello/world/' - > output.txt
+
+sed writes output to standard output. Use -i to edit files in-place instead of printing to standard output. See also the W and s///w commands for writing output to other files. The following command modifies file.txt and does not produce any output:
+
+sed -i 's/hello/world/' file.txt

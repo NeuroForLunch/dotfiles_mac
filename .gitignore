@@ -1,25 +1,19 @@
 dotfiles
 
-
 *.log
 *.DS_Store
+
+settings/private/
+bin/private/
+installers/private/
+
+settings/vim/sessions/
 
 settings/zsh/zsh
 settings/zsh/zprezto/zprezto
 
-
-settings/atom/packages/
-
-settings/vim/sessions/
-
-start_hydrogen\.py
-
 bin/work-in-progress/
 
 installers/atomfile
-
-installers/install-python-addons
-
+settings/atom/packages/
 settings/atom/
-
-settings/gqrx/
