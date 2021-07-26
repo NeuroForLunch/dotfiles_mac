@@ -3,6 +3,9 @@ dotfiles
 *.log
 *.DS_Store
 
+\.spyproject/
+\.vscode/
+
 settings/private/
 bin/private/
 installers/private/
@@ -16,4 +19,6 @@ bin/work-in-progress/
 
 installers/atomfile
 settings/atom/packages/
-settings/atom/
+
+
+settings/iterm2/

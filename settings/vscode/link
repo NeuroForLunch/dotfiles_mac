@@ -1,0 +1,1 @@
+ln -sF ~/.dotfiles/settings/vscode/settings.json ~/Library/ApplicationSupport/Code/User/settings.json

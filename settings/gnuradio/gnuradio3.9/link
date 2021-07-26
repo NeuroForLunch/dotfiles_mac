@@ -1,0 +1,16 @@
+#! zsh
+
+echo "sudo needed for this"
+
+HOMEBREW=/usr/local/Cellar/gnuradio/3.9.2.0_2/lib/python3.9/site-packages/gnuradio/grc/core
+DOTFILES=~/.dotfiles/settings/gnuradio/gnuradio3.9
+
+
+rm -f ~/.gnuradio/config.conf
+ln -sF $DOTFILES/config.conf ~/.gnuradio/config.conf
+
+rm -f ~/.config/gtk-3.0/settings.ini
+ln -sF ~/.dotfiles/settings/gnuradio/gnuradio3.9/settings.ini ~/.config/gtk-3.0/settings.ini
+
+rm -f /usr/local/Cellar/gnuradio/3.9.2.0_2/lib/python3.9/site-packages/gnuradio/grc/core/Constants.py
+ln -sF ~/.dotfiles/settings/gnuradio/gnuradio3.9/grc/core/Constants.py /usr/local/Cellar/gnuradio/3.9.2.0_2/lib/python3.9/site-packages/gnuradio/grc/core/Constants.py

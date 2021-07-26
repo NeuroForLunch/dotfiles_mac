@@ -12,7 +12,6 @@ typeset -gU cdpath fpath mailpath path
 # Directories that cd searches.
  cdpath=(
    ~/Dropbox/github
-   ~/Dropbox/Thermoacoustic_Brain_Decoder
    $cdpath
  )
 

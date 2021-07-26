@@ -1,0 +1,9 @@
+# Start groups with a simple headline that does not contain a colon.
+# Entries consist of the title, a colon with a space, and the URL.
+# URLs can be almost anything (http, https, mailto, etc).
+
+Group 1
+Mozilla: https://www.mozilla.com/
+
+Group 2
+Google: https://www.google.com/

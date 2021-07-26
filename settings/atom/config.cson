@@ -1,0 +1,115 @@
+"*":
+  Hydrogen:
+    autocompleteSuggestionPriority: 1
+    debug: true
+    globalMode: true
+    kernelNotifications: true
+    outputAreaDock: true
+    showInspectorResultsInAutocomplete: true
+    startDir: "dirOfFile"
+  "atom-beautify":
+    less:
+      align_assignments: true
+      force_indentation: true
+      predefinedConfig: "zen"
+      preserve_newlines: true
+  "bracket-matcher":
+    alwaysSkipClosingPairs: true
+    autocompleteBrackets: false
+    highlightMatchingLineNumber: true
+  core:
+    disabledPackages: [
+      "symbols-view"
+      "ide-html"
+      "ide-css"
+      "ide-cpp"
+      "ide-json"
+      "ide-yaml"
+      "platformio-ide-debugger"
+      "platformio-ide-terminal"
+      "pdf-view"
+      "python-debugger"
+      "awesome-python-snippets"
+      "python-black"
+      "python-indent"
+      "python-requirements"
+      "python-tools"
+      "atom-ide-debugger"
+      "atom-ide-signature-help"
+      "ide-python"
+      "atom-ide-outline"
+      "atom-ide-markdown-service"
+      "atom-ide-hyperclick"
+      "atom-ide-definitions"
+      "atom-ide-datatip"
+      "atom-ide-base"
+      "atom-ide-debugger-python"
+      "atom-ide-ui"
+      "platformio-ide"
+      "atom-ctags"
+      "build"
+      "file-icons"
+      "pdf-view-plus"
+      "github"
+    ]
+    excludeVcsIgnoredPaths: false
+    projectHome: "~/Dropbox/github"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    atomicSoftTabs: false
+    fontSize: 13
+    preferredLineLength: 200
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    zoomFontWhenCtrlScrolling: true
+  "file-icons":
+    coloured: false
+  "ide-python":
+    pylsPlugins:
+      autopep8:
+        enabled: false
+      jedi_completion:
+        enabled: false
+        include_params: false
+      jedi_definition:
+        enabled: false
+      jedi_hover:
+        enabled: false
+      jedi_references:
+        enabled: false
+      jedi_signature_help:
+        enabled: false
+      jedi_symbols:
+        all_scopes: false
+        enabled: false
+      mccabe:
+        enabled: false
+      preload:
+        enabled: false
+      pycodestyle:
+        enabled: false
+      pyflakes:
+        enabled: false
+      pyls_mypy:
+        enabled: false
+        live_mode: false
+      rope_completion: {}
+  "linter-ui-default":
+    useBusySignal: false
+  "pdf-view-plus": {}
+  "pdfjs-viewer": {}
+  "tool-bar":
+    position: "Left"
+    visible: false
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    showIndentGuide: false
+    showInvisibles: false

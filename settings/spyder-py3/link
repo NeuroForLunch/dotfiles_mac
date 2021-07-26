@@ -1,0 +1,5 @@
+ln -sF ~/.dotfiles/settings/spyder-py3/spyder.ini ~/.spyder-py3/spyder.ini
+
+ln -sF ~/.dotfiles/settings/spyder-py3/terminal.ini ~/.spyder-py3/plugins/terminal/spyder.ini
+
+ln -sF ~/.dotfiles/settings/spyder-py3/template.py ~/.spyder-py3/template.py

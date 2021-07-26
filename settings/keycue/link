@@ -1,0 +1,3 @@
+ln -sF ~/.dotfiles/settings/keycue/shortcuts ~/Library/ApplicationSupport/KeyCue/Custom\ Shortcuts
+
+ln -sF ~/.dotfiles/settings/keycue/KeyCue-URLs.txt ~/Library/ApplicationSupport/KeyCue/KeyCue-URLS.txt
