@@ -7,3 +7,6 @@ xcode-select --install
 # Install git configuration
 ln -sF ~/.dotfiles/settings/git/gitconfig ~/.gitconfig
 ln -sF ~/.dotfiles/settings/git/gitignore ~/.gitignore
+
+# Install links
+ln -sF ~/.dotfiles/settings/private/gqrx ~/.config/gqrx
