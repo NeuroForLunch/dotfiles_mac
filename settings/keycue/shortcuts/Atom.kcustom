@@ -274,20 +274,6 @@
 			<key>type</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>heading</key>
-			<true/>
-			<key>title</key>
-			<string>keycue</string>
-		</dict>
-		<dict>
-			<key>keystring</key>
-			<string>bug</string>
-			<key>title</key>
-			<string>dont use keycue search</string>
-			<key>type</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 </dict>
 </plist>

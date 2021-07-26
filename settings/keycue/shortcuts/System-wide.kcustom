@@ -10,6 +10,12 @@
 			<key>heading</key>
 			<true/>
 			<key>title</key>
+			<string>Navigation</string>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
 			<string>Switch Applications</string>
 		</dict>
 		<dict>
@@ -293,6 +299,48 @@
 			<string>Put Display to Sleep</string>
 			<key>type</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>47</integer>
+			<key>keystring</key>
+			<string>.</string>
+			<key>modifiers</key>
+			<integer>1966080</integer>
+			<key>title</key>
+			<string>System diagnosis (takes a while)</string>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>heading</key>
+			<true/>
+			<key>title</key>
+			<string>Apple</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>53</integer>
+			<key>modifiers</key>
+			<integer>1572864</integer>
+			<key>title</key>
+			<string>Force Quit</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>12</integer>
+			<key>modifiers</key>
+			<integer>1310720</integer>
+			<key>title</key>
+			<string>Lock Screen</string>
+		</dict>
+		<dict>
+			<key>keycode</key>
+			<integer>12</integer>
+			<key>modifiers</key>
+			<integer>1179648</integer>
+			<key>title</key>
+			<string>Logout</string>
 		</dict>
 	</array>
 </dict>
