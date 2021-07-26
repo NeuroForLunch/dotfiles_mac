@@ -1,0 +1,5 @@
+#! zsh
+
+rm -i "~/Library/Application Support/audacity/Theme/ImageCache.png"
+
+ln -sF ~/.dotfiles/settings/audacity/Theme/ImageCache.png ~/Library/Application\ Support/audacity/Theme/ImageCache.png

@@ -1,5 +1,9 @@
 # dotfiles
 
+<p align="center">
+<img src="https://github.com/NeuroForLunch/dotfiles/blob/main/breathe.gif" width="50%" />
+</p>
+
 - Configures a computer for work and presents a workflow focused on efficiency.
 - Use the keyboard efficiently enough and you will be able to create at the speed of thought.
 - See installation below.
