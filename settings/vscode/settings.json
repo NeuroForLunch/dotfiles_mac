@@ -15,7 +15,7 @@
     "editor.mouseWheelZoom": true,
     "editor.minimap.enabled": false,
     "workbench.iconTheme": "macos-modern-big-sur-icon-theme",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.colorTheme": "Dark+ Python",
     "workbench.preferredDarkColorTheme": "Dark+ Python",
     "workbench.preferredHighContrastColorTheme": "Solarized Dark",
     "terminal.external.osxExec": "iTerm2.app",
@@ -194,6 +194,7 @@
     "markdown.extension.print.theme": "dark",
     "settingsSync.ignoredExtensions": [
 
-    ]
+    ],
+    "workbench.statusBar.visible": false
 
 }

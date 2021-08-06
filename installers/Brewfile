@@ -1,6 +1,10 @@
 # Run this file with `brew bundle`
 # Filter names of packages with `brew search`
-# Search descriptions of packages with searchbrew.com
+
+# Examples
+# brew 'emacs', args: ['with-cocoa', 'with-gnutls']
+# cask 'java' unless system '/usr/libexec/java_home --failfast'
+# mas 'app_name', id: XXXXXXXXX # installs from Mac Apple Store
 
 cask_args appdir: '/Applications'
 
@@ -84,16 +88,12 @@ brew 'ffmpeg' # needed for youtube-dl to convert video to mp3
 brew 'imagemagick' # image manipulation see xxx
 # cask 'handbrake' # video transcoder
 
-## Communications
-# cask 'signal' # secure communications
-# cask 'slack' # team chat client
-
 ## Security
 # mas '1Password', id: 443987910
 # cask '1password' # best password manager. Make sure to get version 6
 brew 'gnupg'
 
-## Mathematics
+# cask charles
 
 ## macOS Customization
 cask 'karabiner-elements' # remap keys like Caps Lock to Esc
@@ -103,8 +103,3 @@ cask 'duet' # use ipad as additional screen
 # Signals Intelligence
 brew 'fftw'
 brew  'inspectrum', args: ['head']
-
-# Examples
-# brew 'emacs', args: ['with-cocoa', 'with-gnutls']
-# cask 'java' unless system '/usr/libexec/java_home --failfast'
-# mas 'app_name', id: XXXXXXXXX # installs from Mac Apple Store

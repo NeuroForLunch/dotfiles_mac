@@ -1,2 +1,0 @@
-#!usr/bin/env bash
-cp -f ~/.dotfiles/fonts/* ~/Library/Fonts

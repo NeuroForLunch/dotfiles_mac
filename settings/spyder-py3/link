@@ -3,3 +3,7 @@ ln -sF ~/.dotfiles/settings/spyder-py3/spyder.ini ~/.spyder-py3/spyder.ini
 ln -sF ~/.dotfiles/settings/spyder-py3/terminal.ini ~/.spyder-py3/plugins/terminal/spyder.ini
 
 ln -sF ~/.dotfiles/settings/spyder-py3/template.py ~/.spyder-py3/template.py
+
+ln -sF ~/.dotfiles/settings/spyder-py3/mac_stylesheet.qss /usr/local/lib/python3.9/site-packages/spyder/app/mac_stylesheet.qss
+
+ln -sF ~/.dotfiles/settings/spyder-py3/cli_options.py /usr/local/lib/python3.9/site-packages/spyder/app/cli_options.py

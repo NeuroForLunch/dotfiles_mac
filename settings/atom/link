@@ -1,0 +1,5 @@
+ln -sF ~/.dotfiles/settings/settings/atom/keymap.cson ~/.atom/keymap.cson
+ln -sF ~/.dotfiles/settings/settings/atom/config.cson ~/.atom/config.cson
+ln -sF ~/.dotfiles/settings/settings/atom/styles.less ~/.atom/styles.cson
+ln -sF ~/.dotfiles/settings/settings/atom/snippets.cson ~/.atom/snippets.cson
+ln -sF ~/.dotfiles/settings/settings/atom/init.coffee ~/.atom/init.coffee

@@ -9,6 +9,8 @@
 'atom-workspace .tree-view':
   'cmd-enter': 'abort!'
 
+'atom-text-editor.autocomplete-active':
+  'enter': 'autocomplete-plus:cancel'
 # all
 # -------------------------
 'atom-text-editor.vim-mode-plus':
