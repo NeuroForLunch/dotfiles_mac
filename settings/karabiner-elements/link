@@ -1,0 +1,1 @@
+ln -sF ~/.dotfiles/settings/karabiner-elements ~/.config/karabiner

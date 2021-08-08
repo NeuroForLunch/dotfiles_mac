@@ -1,0 +1,2 @@
+ln -sF ~/.dotfiles/settings/octave ~/.config/octave
+ln -sF ~/.dotfiles/settings/octave/octaverc ~/.octaverc

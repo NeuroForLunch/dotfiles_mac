@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+ln -sF ~/.dotfiles/settings/matplotlib ~/.matplotlib

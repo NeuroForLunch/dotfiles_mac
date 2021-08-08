@@ -1,0 +1,34 @@
+{
+  "title": "Mouse buttons 5,4 -> cut, paste",
+  "rules": [
+    {
+      "description": "Maps button 4 to cut, 5 to paste",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [
+            {
+              "key_code": "x",
+              "modifiers": "left_command"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": "left_command"
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+} 

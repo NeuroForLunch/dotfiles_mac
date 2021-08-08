@@ -1,0 +1,5 @@
+#! zsh
+
+rm -rf ~/Library/Containers/com.mactechnologies.regexrx/Data/Library/Application\ Support/RegExRX/Templates
+
+ln -sF ~/.dotfiles/settings/regexrx ~/Library/Containers/com.mactechnologies.regexrx/Data/Library/Application\ Support/RegExRX/Templates
